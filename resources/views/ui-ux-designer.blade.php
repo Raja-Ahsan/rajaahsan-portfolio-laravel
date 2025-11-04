@@ -632,7 +632,7 @@
             <div class="container" style="max-width: 1200px;">
                 <div style="text-align: center; margin-bottom: 4em;">
                     <h2 class="project__title" style="color: #000; font-size: 2.5em; margin-bottom: 1em;">Stationery Design</h2>
-                    <p style="color: #666; font-size: 1.2em; max-width: 700px; margin: 0 auto;">Professional business stationery that leaves a lasting impression. Business cards, letterheads, envelopes, and more.</p>
+                    <p style="color: #666; font-size: 1.2em; max-width: 700px; margin: 0 auto;">Premium business stationery that makes an impact cards, letterheads, brochures, envelopes, flyers, posters & more.</p>
                 </div>
 
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2.5em;">
@@ -647,19 +647,19 @@
 
                     <!-- Stationery Item 2 - Letterhead -->
                     <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
-                        <img src="{{ asset('website/img/designs/stationery/2.jpg') }}" alt="Letterhead Design" style="width: 100%; height: auto;">
+                        <img src="{{ asset('website/img/designs/stationery/2.jpg') }}" alt="Flyers Design" style="width: 100%; height: auto;">
                         <div style="padding: 1.5em;">
-                            <h3 style="color: #000; font-size: 1.3em; margin-bottom: 0.5em;">Letterheads</h3>
-                            <p style="color: #666; font-size: 0.95em;">Professional letterhead designs that reflect your brand identity.</p>
+                            <h3 style="color: #000; font-size: 1.3em; margin-bottom: 0.5em;">Flyers</h3>
+                            <p style="color: #666; font-size: 0.95em;">Professional flyer designs that make a statement.</p>
                         </div>
                     </div>
 
                     <!-- Stationery Item 3 - Envelope -->
                     <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
-                        <img src="{{ asset('website/img/designs/stationery/3.jpg') }}" alt="Envelope Design" style="width: 100%; height: auto;">
+                        <img src="{{ asset('website/img/designs/stationery/3.jpg') }}" alt="Letterheads Design" style="width: 100%; height: auto;">
                         <div style="padding: 1.5em;">
-                            <h3 style="color: #000; font-size: 1.3em; margin-bottom: 0.5em;">Envelopes</h3>
-                            <p style="color: #666; font-size: 0.95em;">Custom envelope designs that complement your brand stationery.</p>
+                            <h3 style="color: #000; font-size: 1.3em; margin-bottom: 0.5em;">Letterheads</h3>
+                            <p style="color: #666; font-size: 0.95em;">Professional letterhead designs that reflect your brand identity.</p>
                         </div>
                     </div>
                     <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
@@ -670,38 +670,38 @@
                         </div>
                     </div>
                     <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
-                        <img src="{{ asset('website/img/designs/stationery/5.jpg') }}" alt="Envelope Design" style="width: 100%; height: auto;">
+                        <img src="{{ asset('website/img/designs/stationery/5.jpg') }}" alt="Brochures Design" style="width: 100%; height: auto;">
                         <div style="padding: 1.5em;">
-                            <h3 style="color: #000; font-size: 1.3em; margin-bottom: 0.5em;">Envelopes</h3>
-                            <p style="color: #666; font-size: 0.95em;">Custom envelope designs that complement your brand stationery.</p>
+                            <h3 style="color: #000; font-size: 1.3em; margin-bottom: 0.5em;">Brochures</h3>
+                            <p style="color: #666; font-size: 0.95em;">Premium brochure designs that inform and inspire.</p>
                         </div>
                     </div>
                     <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
-                        <img src="{{ asset('website/img/designs/stationery/6.jpg') }}" alt="Envelope Design" style="width: 100%; height: auto;">
+                        <img src="{{ asset('website/img/designs/stationery/6.jpg') }}" alt="Business Cards" style="width: 100%; height: auto;">
                         <div style="padding: 1.5em;">
-                            <h3 style="color: #000; font-size: 1.3em; margin-bottom: 0.5em;">Envelopes</h3>
-                            <p style="color: #666; font-size: 0.95em;">Custom envelope designs that complement your brand stationery.</p>
+                            <h3 style="color: #000; font-size: 1.3em; margin-bottom: 0.5em;">Business Cards</h3>
+                            <p style="color: #666; font-size: 0.95em;">Premium business card designs that make connections memorable.</p>
                         </div>
                     </div>
                     <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
-                        <img src="{{ asset('website/img/designs/stationery/7.jpg') }}" alt="Envelope Design" style="width: 100%; height: auto;">
+                        <img src="{{ asset('website/img/designs/stationery/7.jpg') }}" alt="Business Design" style="width: 100%; height: auto;">
                         <div style="padding: 1.5em;">
-                            <h3 style="color: #000; font-size: 1.3em; margin-bottom: 0.5em;">Envelopes</h3>
-                            <p style="color: #666; font-size: 0.95em;">Custom envelope designs that complement your brand stationery.</p>
+                            <h3 style="color: #000; font-size: 1.3em; margin-bottom: 0.5em;">Business Cards</h3>
+                            <p style="color: #666; font-size: 0.95em;">Premium business card designs that make connections memorable.</p>
                         </div>
                     </div>
                     <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
-                        <img src="{{ asset('website/img/designs/stationery/8.jpg') }}" alt="Envelope Design" style="width: 100%; height: auto;">
+                        <img src="{{ asset('website/img/designs/stationery/8.jpg') }}" alt="Cards Design" style="width: 100%; height: auto;">
                         <div style="padding: 1.5em;">
-                            <h3 style="color: #000; font-size: 1.3em; margin-bottom: 0.5em;">Envelopes</h3>
-                            <p style="color: #666; font-size: 0.95em;">Custom envelope designs that complement your brand stationery.</p>
+                            <h3 style="color: #000; font-size: 1.3em; margin-bottom: 0.5em;">Business Cards</h3>
+                            <p style="color: #666; font-size: 0.95em;">Business cards designs that impress and engage.</p>
                         </div>
                     </div>
                     <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
-                        <img src="{{ asset('website/img/designs/stationery/9.jpg') }}" alt="Envelope Design" style="width: 100%; height: auto;">
+                        <img src="{{ asset('website/img/designs/stationery/9.jpg') }}" alt="Flyers Design" style="width: 100%; height: auto;">
                         <div style="padding: 1.5em;">
-                            <h3 style="color: #000; font-size: 1.3em; margin-bottom: 0.5em;">Envelopes</h3>
-                            <p style="color: #666; font-size: 0.95em;">Custom envelope designs that complement your brand stationery.</p>
+                            <h3 style="color: #000; font-size: 1.3em; margin-bottom: 0.5em;">Flyers</h3>
+                            <p style="color: #666; font-size: 0.95em;">Professional flyer designs that make a statement.</p>
                         </div>
                     </div>
                 </div>
@@ -712,8 +712,8 @@
         <section class="section" style="margin-top: 1em; padding-bottom: 6em;">
             <div class="container" style="max-width: 1200px;">
                 <div style="text-align: center; margin-bottom: 4em;">
-                    <h2 class="project__title" style="color: #000; font-size: 2.5em; margin-bottom: 1em;">Book Design Pages</h2>
-                    <p style="color: #666; font-size: 1.2em; max-width: 700px; margin: 0 auto;">Beautiful book layouts and page designs that enhance readability and create engaging reading experiences.</p>
+                    <h2 class="project__title" style="color: #000; font-size: 2.5em; margin-bottom: 1em;">Book Cover Designs</h2>
+                    <p style="color: #666; font-size: 1.2em; max-width: 700px; margin: 0 auto;">Beautiful book cover designs that enhance readability and create engaging reading experiences.</p>
                 </div>
 
                 <div class="hero__webpages" style="padding-top: 12em;">
