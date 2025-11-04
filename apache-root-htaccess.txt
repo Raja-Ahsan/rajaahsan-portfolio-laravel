@@ -1,0 +1,25 @@
+# Apache Configuration for Laravel
+# If your hosting doesn't allow changing document root, place this .htaccess in your root directory
+# This will redirect all requests to the public folder
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    # Redirect to public folder
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
+# Alternative: If you want to prevent direct access to non-public files
+# Uncomment the following lines:
+
+# <FilesMatch "^\.">
+#     Order allow,deny
+#     Deny from all
+# </FilesMatch>
+
+# <FilesMatch "^(composer\.(json|lock)|package\.json|\.env|\.git|artisan)$">
+#     Order allow,deny
+#     Deny from all
+# </FilesMatch>
+
