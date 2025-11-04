@@ -4,7 +4,67 @@
 
 @section('wf-page-id', '656ef8b027ad4189724cf4ea')
 
-@section('description', 'Connecting homeowners and businesses with trusted local contractors made simple. Laravel based project.')
+@section('description', 'Pro Contractors Hub - Connecting homeowners and businesses with trusted local contractors made simple. Custom Laravel-based contractor marketplace platform developed by Raja Ahsan.')
+
+@section('schema')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Pro Contractors Hub",
+  "description": "Connecting homeowners and businesses with trusted local contractors made simple. A comprehensive platform for finding and hiring professional contractors.",
+  "url": "#",
+  "applicationCategory": "Contractor Marketplace",
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "creator": {
+    "@type": "Person",
+    "name": "Raja Ahsan",
+    "url": "{{ url('/') }}"
+  },
+  "programmingLanguage": "Laravel",
+  "softwareVersion": "Custom Laravel Platform"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Pro Contractors Hub - Project Portfolio",
+  "description": "Pro Contractors Hub - Connecting homeowners and businesses with trusted local contractors made simple. Custom Laravel-based contractor marketplace platform.",
+  "url": "{{ route('project.pro-contractors-hub') }}",
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "{{ url('/') }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Projects",
+        "item": "{{ route('webdesign') }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Pro Contractors Hub",
+        "item": "{{ route('project.pro-contractors-hub') }}"
+      }
+    ]
+  }
+}
+</script>
+@endverbatim
+@endsection
 
 @section('content')
 <main data-w-id="d3c12eaf-85d8-0efa-a9e5-88d484610211" class="main">

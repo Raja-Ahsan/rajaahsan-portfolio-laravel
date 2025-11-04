@@ -4,7 +4,67 @@
 
 @section('wf-page-id', '656ef8b027ad4189724cf4ea')
 
-@section('description', 'Your all in one trip planner, travel cheerleader, and peace of mind provider. Laravel based project.')
+@section('description', 'Liming Around The World - Your all-in-one trip planner, travel cheerleader, and peace of mind provider. Custom Laravel-based travel planning platform developed by Raja Ahsan.')
+
+@section('schema')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Liming Around The World",
+  "description": "Your all-in-one trip planner, travel cheerleader, and peace of mind provider. A comprehensive travel planning platform for discovering destinations and creating unforgettable journeys.",
+  "url": "http://liming.sitestaginglink.com/",
+  "applicationCategory": "Travel Planning Platform",
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "creator": {
+    "@type": "Person",
+    "name": "Raja Ahsan",
+    "url": "{{ url('/') }}"
+  },
+  "programmingLanguage": "Laravel",
+  "softwareVersion": "Custom Laravel Platform"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Liming Around The World - Project Portfolio",
+  "description": "Liming Around The World - Your all-in-one trip planner, travel cheerleader, and peace of mind provider. Custom Laravel-based travel planning platform.",
+  "url": "{{ route('project.liming-around-the-world') }}",
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "{{ url('/') }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Projects",
+        "item": "{{ route('webdesign') }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Liming Around The World",
+        "item": "{{ route('project.liming-around-the-world') }}"
+      }
+    ]
+  }
+}
+</script>
+@endverbatim
+@endsection
 
 @section('content')
 <main data-w-id="d3c12eaf-85d8-0efa-a9e5-88d484610211" class="main">

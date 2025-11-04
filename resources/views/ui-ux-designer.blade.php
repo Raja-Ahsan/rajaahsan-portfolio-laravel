@@ -4,7 +4,63 @@
 
 @section('wf-page-id', '656ef8b027ad4189724cf4de')
 
-@section('description', 'Explore my UI/UX design portfolio featuring Figma designs, creative logos, branding, stationery, and book design pages. Professional design solutions that elevate brands.')
+@section('description', 'Professional UI/UX design services by Raja Ahsan. Figma designs, creative logos, branding, stationery, and book design. Expert in creating beautiful experiences that tell your brand\'s story.')
+
+@section('schema')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "UI/UX Design",
+  "name": "UI/UX Design Services - Raja Ahsan",
+  "description": "Professional UI/UX design services including Figma designs, creative logos, branding, stationery, and book design. Creating beautiful experiences that tell your brand's story.",
+  "provider": {
+    "@type": "Person",
+    "name": "Raja Ahsan",
+    "email": "hellorajaahsan@gmail.com",
+    "telephone": "+92-333-128-7496",
+    "url": "{{ url('/') }}"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Worldwide"
+  },
+  "offers": {
+    "@type": "Offer",
+    "description": "UI/UX design and branding services"
+  },
+  "url": "{{ route('ui-ux-designer') }}"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "UI/UX Design Services - Raja Ahsan",
+  "description": "Professional UI/UX design services by Raja Ahsan. Figma designs, creative logos, branding, stationery, and book design.",
+  "url": "{{ route('ui-ux-designer') }}",
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "{{ url('/') }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "UI/UX Designer",
+        "item": "{{ route('ui-ux-designer') }}"
+      }
+    ]
+  }
+}
+</script>
+@endverbatim
+@endsection
 
 @section('content')
 <main class="main">

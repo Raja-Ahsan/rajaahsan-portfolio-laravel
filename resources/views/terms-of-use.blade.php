@@ -4,6 +4,38 @@
 
 @section('description', 'Terms of Use for Raja Ahsan Portfolio Website. Read our terms and conditions for using our website and services.')
 
+@section('schema')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Terms of Use - Raja Ahsan Portfolio",
+  "description": "Terms of Use for Raja Ahsan Portfolio Website. Read our terms and conditions for using our website and services.",
+  "url": "{{ route('terms-of-use') }}",
+  "dateModified": "{{ date('Y-m-d') }}",
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "{{ url('/') }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Terms of Use",
+        "item": "{{ route('terms-of-use') }}"
+      }
+    ]
+  }
+}
+</script>
+@endverbatim
+@endsection
+
 @section('content')
 <main class="main">
   <section class="section" style="background-image: url('{{ asset('website/img/banner-terms.png') }}')">

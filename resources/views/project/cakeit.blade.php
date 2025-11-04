@@ -4,7 +4,67 @@
 
 @section('wf-page-id', '656ef8b027ad4189724cf4ea')
 
-@section('description', 'Let\'s bake something great together turning your sweet ideas into delicious reality.')
+@section('description', 'Cakeit - Let\'s bake something great together turning your sweet ideas into delicious reality. Custom Laravel-based cake ordering platform developed by Raja Ahsan.')
+
+@section('schema')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Cakeit",
+  "description": "Let's bake something great together turning your sweet ideas into delicious reality. A platform for ordering custom cakes and connecting with talented bakers.",
+  "url": "https://cakeit.us/",
+  "applicationCategory": "E-commerce Platform",
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "creator": {
+    "@type": "Person",
+    "name": "Raja Ahsan",
+    "url": "{{ url('/') }}"
+  },
+  "programmingLanguage": "Laravel",
+  "softwareVersion": "Custom Laravel Platform"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Cakeit - Project Portfolio",
+  "description": "Cakeit - Let's bake something great together turning your sweet ideas into delicious reality. Custom Laravel-based cake ordering platform.",
+  "url": "{{ route('project.cakeit') }}",
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "{{ url('/') }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Projects",
+        "item": "{{ route('webdesign') }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Cakeit",
+        "item": "{{ route('project.cakeit') }}"
+      }
+    ]
+  }
+}
+</script>
+@endverbatim
+@endsection
 
 @section('content')
 <main data-w-id="d3c12eaf-85d8-0efa-a9e5-88d484610211" class="main">

@@ -68,14 +68,17 @@
       "alternateName": "Raja Ahsan",
       "jobTitle": "Full Stack Web Developer (Laravel, React, Node.js, WordPress) & UI/UX Designer",
       "image": "{{ asset('website/img/raja-ahsan-fullstack-developer.png') }}",
-      "url": "https://itsons.com",
+      "url": "{{ config('app.url') }}",
+      "email": "hellorajaahsan@gmail.com",
+      "telephone": "+92-333-128-7496",
       "worksFor": {
         "@type": "Organization",
         "name": "Freelance / IT SONS"
       },
       "sameAs": [
         "https://www.linkedin.com/in/raja-ahsan-fullstack-developer/",
-        "https://github.com/raja-ahsan"
+        "https://github.com/raja-ahsan",
+        "https://www.instagram.com/rajaa33333/"
       ],
       "description": "Raja Ahsan is a professional Full Stack Developer & WordPress Plugin Expert from Karachi, skilled in Laravel, React, Node.js, and UI/UX design. He develops scalable web applications, custom APIs, and interactive user experiences for businesses worldwide.",
       "knowsAbout": [
@@ -89,16 +92,22 @@
         "JavaScript & jQuery",
         "MySQL Database",
         "E-commerce Solutions",
-        "Web Animation"
+        "Web Animation",
+        "Webflow",
+        "Figma",
+        "Branding"
       ],
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Karachi",
+        "addressRegion": "Sindh",
         "addressCountry": "Pakistan"
       }
     }
   </script>
   @endverbatim
+  
+  @stack('schema')
   
   @stack('styles')
 </head>

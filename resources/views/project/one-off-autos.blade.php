@@ -4,7 +4,67 @@
 
 @section('wf-page-id', '656ef8b027ad4189724cf4ea')
 
-@section('description', 'The ultimate platform for enthusiasts to buy and sell custom modified vehicles with ease. Laravel based project.')
+@section('description', 'One Off Autos - The ultimate platform for enthusiasts to buy and sell custom modified vehicles with ease. Custom Laravel-based automotive marketplace developed by Raja Ahsan.')
+
+@section('schema')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "One Off Autos",
+  "description": "The ultimate platform for enthusiasts to buy and sell custom modified vehicles with ease. A specialized marketplace for custom modified vehicles and automotive enthusiasts.",
+  "url": "https://oneoffautos.com/",
+  "applicationCategory": "Automotive Marketplace",
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "creator": {
+    "@type": "Person",
+    "name": "Raja Ahsan",
+    "url": "{{ url('/') }}"
+  },
+  "programmingLanguage": "Laravel",
+  "softwareVersion": "Custom Laravel Platform"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "One Off Autos - Project Portfolio",
+  "description": "One Off Autos - The ultimate platform for enthusiasts to buy and sell custom modified vehicles with ease. Custom Laravel-based automotive marketplace.",
+  "url": "{{ route('project.one-off-autos') }}",
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "{{ url('/') }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Projects",
+        "item": "{{ route('webdesign') }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "One Off Autos",
+        "item": "{{ route('project.one-off-autos') }}"
+      }
+    ]
+  }
+}
+</script>
+@endverbatim
+@endsection
 
 @section('content')
 <main data-w-id="d3c12eaf-85d8-0efa-a9e5-88d484610211" class="main">

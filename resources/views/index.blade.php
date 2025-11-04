@@ -2,6 +2,47 @@
 
 @section('title', 'Home - ' . config('app.name'))
 
+@section('description', 'Raja Ahsan - Full Stack Web Developer & UI/UX Designer from Karachi, Pakistan. Specializing in Laravel, React, Node.js, WordPress, and custom web solutions. Professional portfolio showcasing web development and design projects.')
+
+@section('schema')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Raja Ahsan - Full Stack Web Developer & UI/UX Designer",
+  "description": "Professional portfolio of Raja Ahsan, a Full Stack Web Developer and UI/UX Designer from Karachi, Pakistan. Specializing in Laravel, React, Node.js, WordPress, and custom web solutions.",
+  "url": "{{ url('/') }}",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Raja Muhammad Ahsan",
+    "alternateName": "Raja Ahsan",
+    "jobTitle": "Full Stack Web Developer (Laravel, React, Node.js, WordPress) & UI/UX Designer",
+    "image": "{{ asset('website/img/raja-ahsan-fullstack-developer.png') }}",
+    "url": "{{ url('/') }}",
+    "email": "hellorajaahsan@gmail.com",
+    "telephone": "+92-333-128-7496",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Karachi",
+      "addressRegion": "Sindh",
+      "addressCountry": "Pakistan"
+    }
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ url('/') }}"
+    }]
+  }
+}
+</script>
+@endverbatim
+@endsection
+
 @section('content')
 <div style="-webkit-transform:translate3d(null, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(null, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(null, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(null, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:1"
   class="main">

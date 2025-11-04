@@ -4,6 +4,64 @@
 
 @section('wf-page-id', '656ef8b027ad4189724cf4de')
 
+@section('description', 'Professional web design and development services by Raja Ahsan. Custom Laravel websites, React applications, API integrations, and Webflow development. Expert in creating fast, responsive, and high-performing websites.')
+
+@section('schema')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Web Design & Development",
+  "name": "Web Design Services - Raja Ahsan",
+  "description": "Professional web design and development services including custom Laravel websites, React applications, API integrations, and Webflow development. Creating fast, responsive, and high-performing websites.",
+  "provider": {
+    "@type": "Person",
+    "name": "Raja Ahsan",
+    "email": "hellorajaahsan@gmail.com",
+    "telephone": "+92-333-128-7496",
+    "url": "{{ url('/') }}"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Worldwide"
+  },
+  "offers": {
+    "@type": "Offer",
+    "description": "Custom website design and development services"
+  },
+  "url": "{{ route('webdesign') }}"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Web Design Services - Raja Ahsan",
+  "description": "Professional web design and development services by Raja Ahsan. Custom Laravel websites, React applications, API integrations, and Webflow development.",
+  "url": "{{ route('webdesign') }}",
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "{{ url('/') }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Web Design",
+        "item": "{{ route('webdesign') }}"
+      }
+    ]
+  }
+}
+</script>
+@endverbatim
+@endsection
+
 @section('content')
 <main class="main">
     <div class="overflow-hidden">

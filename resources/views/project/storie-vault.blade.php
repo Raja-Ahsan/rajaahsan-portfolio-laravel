@@ -4,7 +4,67 @@
 
 @section('wf-page-id', '656ef8b027ad4189724cf4ea')
 
-@section('description', 'Where Every Story Leaves a Mark - Inertia based project.')
+@section('description', 'Storie Vault - Where Every Story Leaves a Mark. Inertia.js-based platform for sharing and preserving meaningful stories. Professional web development project by Raja Ahsan.')
+
+@section('schema')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Storie Vault",
+  "description": "Where Every Story Leaves a Mark. A modern platform for sharing, discovering, and preserving meaningful stories.",
+  "url": "https://www.storievault.com/",
+  "applicationCategory": "Story Sharing Platform",
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "creator": {
+    "@type": "Person",
+    "name": "Raja Ahsan",
+    "url": "{{ url('/') }}"
+  },
+  "programmingLanguage": "Inertia.js with Laravel",
+  "softwareVersion": "Inertia.js Platform"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Storie Vault - Project Portfolio",
+  "description": "Storie Vault - Where Every Story Leaves a Mark. Inertia.js-based platform for sharing and preserving meaningful stories.",
+  "url": "{{ route('project.storie-vault') }}",
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "{{ url('/') }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Projects",
+        "item": "{{ route('webdesign') }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Storie Vault",
+        "item": "{{ route('project.storie-vault') }}"
+      }
+    ]
+  }
+}
+</script>
+@endverbatim
+@endsection
 
 @section('content')
 <main data-w-id="d3c12eaf-85d8-0efa-a9e5-88d484610211" class="main">

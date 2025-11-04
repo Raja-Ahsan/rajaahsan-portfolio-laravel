@@ -4,7 +4,67 @@
 
 @section('wf-page-id', '656ef8b027ad4189724cf4ea')
 
-@section('description', 'Your goto place to rent anything, anytime, hassle free Laravel based project.')
+@section('description', 'Rent The Stuff is your go-to place to rent anything, anytime, hassle-free. Custom Laravel-based rental marketplace platform developed by Raja Ahsan.')
+
+@section('schema')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Rent The Stuff",
+  "description": "Your go-to place to rent anything, anytime, hassle-free. A comprehensive rental marketplace platform connecting renters with rentees.",
+  "url": "https://rentthystuff.com/",
+  "applicationCategory": "Rental Marketplace",
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "creator": {
+    "@type": "Person",
+    "name": "Raja Ahsan",
+    "url": "{{ url('/') }}"
+  },
+  "programmingLanguage": "Laravel",
+  "softwareVersion": "Custom Laravel Platform"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Rent The Stuff - Project Portfolio",
+  "description": "Rent The Stuff is your go-to place to rent anything, anytime, hassle-free. Custom Laravel-based rental marketplace platform.",
+  "url": "{{ route('project.rent-the-stuff') }}",
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "{{ url('/') }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Projects",
+        "item": "{{ route('webdesign') }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Rent The Stuff",
+        "item": "{{ route('project.rent-the-stuff') }}"
+      }
+    ]
+  }
+}
+</script>
+@endverbatim
+@endsection
 
 @section('content')
 <main data-w-id="d3c12eaf-85d8-0efa-a9e5-88d484610211" class="main">
